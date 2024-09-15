@@ -19,7 +19,7 @@ const MealsPage = () => {
                     Delicious meals, created
                     <span className={classes.highlight}> by you</span>
                 </h1>
-                <p>Choose your favourite recipe and cook it yourself. It's easy and fun</p>
+                <p>Choose your favourite recipe and cook it yourself. It&rsquo;s easy and fun</p>
                 <p className={classes.cta}>
                     <Link href="/meals/share">Share Your favourite Recipe</Link>
                 </p>
