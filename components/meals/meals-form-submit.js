@@ -3,7 +3,7 @@
 import { useFormStatus } from "react-dom";
 
 const MealsFormSubmition = () => {
-  const { pending } = useFormStatus();
+  const { pending } = useFormStatus() || {};
   return (
     <div>
       <button type="submit" disabled={pending}>
