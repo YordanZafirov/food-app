@@ -4,7 +4,6 @@ import Image from "next/image";
 import logoImg from "@/assets/logo.png";
 import classes from "./main-header.module.css";
 import MainHeaderBackground from "./main-header-background";
-import { usePathname } from "next/navigation";
 import NavLink from "./nav-link";
 
 const MainHeader = () => {
